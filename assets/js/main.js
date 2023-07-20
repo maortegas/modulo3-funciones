@@ -4,29 +4,13 @@ const cuadrado2 = document.getElementById("cuadrado2")
 const cuadrado3 = document.getElementById("cuadrado3")
 const cuadrado4 = document.getElementById("cuadrado4")
 
-function pintar (elemento, color='green'){
-    elemento.style.backgroundColor = color
-}
+const pintar=  (event) => event.target.style.backgroundColor = 'black'
 
-cuadrado1.addEventListener("click",
-function(){
-    pintar(cuadrado1, 'black')
-})
 
-cuadrado2.addEventListener("click",
-function(){
-    pintar(cuadrado2, 'black')
-})
-
-cuadrado3.addEventListener("click",
-function(){
-    pintar(cuadrado3, 'black')
-})
-
-cuadrado4.addEventListener("click",
-function(){
-    pintar(cuadrado4, 'black')
-})
+cuadrado1.addEventListener("click", pintar)
+cuadrado2.addEventListener("click", pintar)
+cuadrado3.addEventListener("click", pintar)
+cuadrado4.addEventListener("click", pintar)
 
 
 document.addEventListener('keydown', function (event) { 
