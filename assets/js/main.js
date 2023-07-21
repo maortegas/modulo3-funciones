@@ -21,8 +21,8 @@ document.addEventListener('keydown', function (event) {
     let letra = event.key.toString().toLowerCase();
     
     if (letra =='a') {
-        color='pink'
-       elemento=inputKey;
+        color='pink';
+        elemento=inputKey;
     } else if (letra== 's') { 
         color='orange';
         elemento=inputKey;
@@ -36,12 +36,11 @@ document.addEventListener('keydown', function (event) {
         color='blue';
         elemento=inputKey1;
     } else if (letra == 'e') { 
-        color='brown'
+        color='brown';
         elemento=inputKey1;
     } 
 
     if (color !=''){
-        
         inputText.textContent= 'Tecla ' +event.key + ' tiene asignada el color ' + color;
         pintarKey(elemento,color);
     }else{
