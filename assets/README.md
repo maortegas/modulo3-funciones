@@ -1,6 +1,4 @@
-# Desafio Funciones
-
-## Supuestos aplicados
+# SUPUESTO
 
 Según lo descrito en este punto, se hace el supuesto que el Div ya esta escrito en HTML tal como se realizo en el punto anterior.
 
